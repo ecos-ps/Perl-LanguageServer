@@ -160,7 +160,7 @@ has 'listen_port' =>
 has 'host' =>
     (
     is => 'rw',
-    isa => 'String',
+    isa => 'Str',
     default => '127.0.0.1'
     ) ;
 
